@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { Mail, Lock, User, Phone, Home, Image as ImageIcon, MapPin } from "lucide-react";
 
+
 export default function Register() {
   const [formData, setFormData] = useState({
     name: "",
@@ -33,7 +34,7 @@ export default function Register() {
     setSuccess("");
     setLoading(true);
     try {
-      const response = await axios.post("http://localhost:5000/api/auth/register", formData);
+      const response = await axios.post("/auth/register", formData);
       setSuccess("Registration successful! Redirecting to login...");
       setTimeout(() => {
         navigate("/login");
