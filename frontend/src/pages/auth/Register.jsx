@@ -34,7 +34,7 @@ export default function Register() {
     setSuccess("");
     setLoading(true);
     try {
-      const response = await axios.post("/auth/register", formData);
+      const response = await axios.post("https://multi-vendor-e-commerce-marketplace.onrender.com/api/auth/register", formData);
       setSuccess("Registration successful! Redirecting to login...");
       setTimeout(() => {
         navigate("/login");
