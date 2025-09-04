@@ -1,30 +1,68 @@
-<h1 align="center">Hi 👋, I'm Kireeti Sangala</h1>
-<h3 align="center">Full Stack Developer | MERN Stack | Problem Solver</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=kireeti407&label=Profile%20views&color=0e75b6&style=flat" alt="kireeti407" /> </p>
+# Multi-Vendor E-Commerce Marketplace
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=kireeti407" alt="kireeti407" /></a> </p>
+This is a full-stack multi-vendor e-commerce marketplace platform, enabling vendors to manage their stores and products, and customers to shop from a wide range of products. The project is built with the MERN stack (MongoDB, Express.js, React.js, Node.js) and features robust authentication, order management, reviews, and more.
 
-- 🔭 I’m currently working on [Multi-Vendor E-Commerce Marketplace](https://github.com/kireeti407/Multi-Vendor-E-Commerce-Marketplace-Backend-System)
+## Features
+- Vendor and customer authentication (JWT, role-based)
+- Vendor store management (products, orders, analytics)
+- Admin dashboard for platform management
+- Product catalog with categories, search, and filters
+- Shopping cart and checkout
+- Order tracking and history
+- Product reviews and ratings
+- Discount and featured product support
+- Responsive UI with modern design
 
-- 🌱 I’m currently learning **Advanced React Patterns**
+## Tech Stack
+- **Frontend:** React.js, Tailwind CSS, Vite
+- **Backend:** Node.js, Express.js, MongoDB (Mongoose)
+- **Authentication:** JWT, role-based access
+- **Other:** Cloudinary (for images), RESTful APIs
 
-- 👨‍💻 All of my projects are available at [https://kireetisangala.netlify.app/](https://kireetisangala.netlify.app/)
+## Getting Started
 
-- 💬 Ask me about **React, MERN Stack and DSA**
+### Prerequisites
+- Node.js (v16+ recommended)
+- MongoDB (local or Atlas)
 
-- 📫 How to reach me **kireetis407@gmail.com**
+### Setup
+1. **Clone the repository:**
+	```bash
+	git clone https://github.com/your-username/your-repo.git
+	cd your-repo
+	```
+2. **Install dependencies:**
+	```bash
+	cd backend
+	npm install
+	cd ../frontend
+	npm install
+	```
+3. **Configure environment variables:**
+	- Copy `.env.example` to `.env` in both `backend` and `frontend` (if needed) and fill in required values.
+4. **Start the backend server:**
+	```bash
+	cd backend
+	npm run dev
+	```
+5. **Start the frontend app:**
+	```bash
+	cd frontend
+	npm run dev
+	```
+6. **Visit** `http://localhost:5173` in your browser.
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/kireeti-sangala/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/kireeti-sangala/" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/https://www.hackerrank.com/profile/kireetis407" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="https://www.hackerrank.com/profile/kireetis407" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/https://leetcode.com/u/sangala_kireeti/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="https://leetcode.com/u/sangala_kireeti/" height="30" width="40" /></a>
-</p>
+## Folder Structure
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> </p>
+```
+project/
+  backend/      # Express.js API, models, routes, controllers
+  frontend/     # React.js app, components, pages, services
+```
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=kireeti407&show_icons=true&locale=en&layout=compact" alt="kireeti407" /></p>
+## Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=kireeti407&show_icons=true&locale=en" alt="kireeti407" /></p>
+
+
